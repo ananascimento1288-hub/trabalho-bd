@@ -17,15 +17,15 @@ O front-end foi desenvolvido priorizando a limpeza visual e a facilidade de nave
 
 ### 1. Painel de Controle (Dashboard)
 O coração do sistema. Aqui, o gestor tem acesso imediato aos indicadores chaves de desempenho (KPIs) e gráficos de distribuição.
-![Visualização do Dashboard](./home.png)
+![Visualização do Dashboard](./home_sabrina.png)
 
 ### 2. Módulo de Cadastro
 Interface amigável para inserção de dados, com validação de campos obrigatórios.
-![Visualização do Cadastro](./caminho_para_imagem_cadastro.png)
+![Visualização do Cadastro](./Cadastro.png)
 
 ### 3. Gestão de Registros
 Tabela dinâmica que permite visualizar, editar e remover alunos do sistema, conectada diretamente ao banco MySQL.
-![Visualização da Lista](./caminho_para_imagem_lista.png)
+![Visualização da Lista](./alunos.png)
 
 ---
 
@@ -68,23 +68,29 @@ Painel de Filtros e KPIs: Visualização dos cards de contagem rápida e barra d
 
 Consultas Estratégicas:
 Consulta 01: Qual a popularidade de cada curso? Gráfico de pizza demonstrando a porcentagem de alunos por área de estudo.
+![grafico curso](./curso.png)
 
 Consulta 02: Perfil dos alunos de Crateús Análise específica das matrículas provenientes da cidade sede.
+![grafico curso crateus](./curso_crateus.png)
 
 Consulta 03: Mapeamento Geográfico Distribuição quantitativa de alunos por todas as cidades cadastradas.
+![grafico cidade](./cidade.png)
 
-Consulta 04: Origem dos alunos de Informática De onde vêm os estudantes interessados em tecnologia?
+Consulta 04: Origem dos alunos de Desenvolvimento de Sistemas De onde vêm os estudantes interessados em tecnologia?
+![grafico cidade ds](./cidade_ds.png)
 
 Consulta 05: Pirâmide Etária Geral Análise da faixa etária predominante na instituição.
+![grafico idade](./idade.png)
 
-Consulta 06: Pirâmide Etária (Informática) Comparativo de idade focado apenas no curso técnico de Informática.
+Consulta 06: Pirâmide Etária (Administração) Comparativo de idade focado apenas no curso técnico de Informática.
+![grafico idade adm](./idade_adm.png)
 
 Consulta 07: Prêmio "Curso do Ano" Sistema identifica e premia visualmente o curso com mais matrículas.
+Consulta 08: Cidade Destaque Identificação do município com maior representatividade no corpo discente.
+![curso cidade destaque](./curso_cidade_destaque.png)
 
-Consulta 08: Preferência em Jericoacoara Qual curso atrai mais alunos da região turística de Jijoca?
 
-Consulta 09: Cidade Destaque Identificação do município com maior representatividade no corpo discente.
-
+Consulta 09: Preferência em Crateus Qual curso atrai mais alunos da região central dos Inhamus?
 Consulta 10: Pólo Tecnológico Qual cidade (excluindo a sede) envia mais alunos para o curso de Informática?
 
 🏁 Considerações Finais
